@@ -8,7 +8,7 @@ def home():
 
 @app.route('/api/test')
 def test():
-    return jsonify({"message": "API is working!"})
+    return jsonify({"message": "My first API is working!"})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=10000)
