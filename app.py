@@ -12,24 +12,6 @@ def home():
 def test():
     return jsonify({"message": "My ffirst API is working!"})
 
-@app.route('/api/testaee')
-def testaee():
-    return jsonify({"message": "Test AEE is working!"})
- 
-#api to check if drkits.smartwayelectronics.in is live or not
-@app.route('/api/check-website/<website>')
-def check_website(website):
-    try:
-        response = requests.get('http://'+website)
-        print(f"website resposne code",response.status_code)
-        if response.status_code == 200:
-            return jsonify({"message": "Website is live!"})
-        else:
-            return jsonify({"message": "Website is not live!"})
-    except Exception as e:
-        return jsonify({"message": "Error checking website!", "error": str(e)})
-    
-
 
 @app.route('/api/AEE')
 def aee():         
