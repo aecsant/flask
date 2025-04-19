@@ -1,5 +1,5 @@
 import random
-
+ 
 class QuantumAEEUnit:
     def __init__(self, name, state, awaken_fn, action_fn, evolve_fn):
         self.name = name
@@ -70,19 +70,19 @@ def evolve_random_flip(state):
         print(f"{state['name']} evolved: flipped quantum bias.")
 
 # Define a unit with quantum-style state
-unit1 = QuantumAEEUnit(
-    name="QCounter",
-    state={
-        "name": "QCounter",
-        "energy": 3,
-        "probabilities": {"heads": 0.6, "tails": 0.4},
-        "last_measurement": None,
-        "active": True,
-    },
-    awaken_fn=awaken_if_heads,
-    action_fn=count_energy,
-    evolve_fn=evolve_random_flip,
-)
+#unit1 = QuantumAEEUnit(
+#    name="QCounter",
+#    state={
+#        "name": "QCounter",
+#        "energy": 3,
+#        "probabilities": {"heads": 0.6, "tails": 0.4},
+#        "last_measurement": None,
+#        "active": True,
+#    },
+#    awaken_fn=awaken_if_heads,
+#    action_fn=count_energy,
+#    evolve_fn=evolve_random_flip,
+#)
 
 # Run it
 #engine = QuantumAEEEngine()
