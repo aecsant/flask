@@ -1,4 +1,5 @@
-Author : Santosh Kumar, aecsant@gmail.com, +91-9011268630, Brahmcs.co.in
+Author : Santosh Kumar, aecsant@gmail.com, +91-9011268630, Brahmcs.co.in,
+Linkedin : https://www.linkedin.com/in/aecsant/
 
 About :This algorithm introduces a new approach to achieve loop-like behavior in software, without relying on traditional iteration constructs (such as for, while, or do-while loops) or recursive function calls.
 
